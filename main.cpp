@@ -127,7 +127,7 @@ struct Racun {
     }
 
     Artikal *BinarnaPretraga(const char * naziv) {
-        //ne razumijem binarnu pretragu po stringu pa cu impl regularnu
+        //dont quite get binary search by string so implementing regular 
 
         for (int k = 0; k < _brojArtikala; ++k) {
             if(strstr(_artikli[k]._naziv,naziv)!=nullptr){
